@@ -10,23 +10,40 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Студия</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сторінки-->
-    <header>
+    <header class="header container">
       <a href="./index.html" class="logo link">Web<span class="logo-header">Studio</span></a>
       <nav class="site-nav">
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="/Контакты" class="link">Контакты</a></li>
+          <li class="site-nav-item">
+            <a href="./index.html" class="site-nav-link link current">Студия</a>
+          </li>
+          <li class="site-nav-item">
+            <a href="./portfolio.html" class="site-nav-link link">Портфолио</a>
+          </li>
+          <li class="site-nav-item"><a href="/Контакты" class="site-nav-link link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="adrress-header list">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li class="adrress-header-item">
+          <a href="mailto:info@devstudio.com" class="adrress-header-link link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="adrress-header-item">
+          <a href="tel:+380961111111" class="adrress-header-link link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
