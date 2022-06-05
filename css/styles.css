@@ -58,11 +58,11 @@ body {
   width: 1200px;
   outline: 2px solid tomato;
 }
-
+/* 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* ------Header----- */
 
@@ -142,6 +142,8 @@ body {
 /* -------Hero------- */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -186,6 +188,11 @@ body {
 
 /* ------specialty------- */
 
+.specialty {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .specialty-list {
   display: flex;
 }
@@ -217,8 +224,11 @@ body {
 
 /* ---------our work------- */
 
+.our-work {
+  padding-bottom: 94px;
+}
+
 .our-work-title {
-  max-width: 377px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -246,12 +256,14 @@ body {
 /* ---------team--------- */
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: #f5f4fa;
   text-align: center;
 }
 
 .team-title {
-  max-width: 265px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -285,8 +297,7 @@ body {
 }
 
 .team-name {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -295,23 +306,24 @@ body {
 }
 
 .team-specialty {
-  padding-bottom: 30px;
-
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
+.name-specialty {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /* -------footer------ */
 
 .footer {
-  background-color: #2f303a;
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: #2f303a;
 }
 
 .footer .logo {
@@ -331,7 +343,7 @@ body {
 }
 
 .contacts-item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address {
@@ -354,6 +366,11 @@ body {
 }
 
 /* ------portfolio------- */
+
+.filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .current-btn {
   padding: 6px 22px;
